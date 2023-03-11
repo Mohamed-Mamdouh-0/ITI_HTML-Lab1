@@ -4,22 +4,36 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>Roadmap Page</title>
+		<link rel="stylesheet" href="myStyles.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
 		<!-- <script src='main.js'></script> -->
 	</head>
 	<body>
-		<img src="img/ITI_logo.png" width="200px" height="100px" />
-		<ul>
-			<a href="index.html"><li>Home</li></a>
-			<li>Road Map</li>
-			<li>Registration Form</li>
-			<a target="_blank" href="https://www.iti.gov.eg/iti/home"
-				><li>Contact</li></a
-			>
-		</ul>
+		<header>
+			<nav class="navbar">
+				<div class="navbar-items">
+					<a class="navbar-item" href="index.html"><span>Home</span></a>
+					<a class="navbar-item" href="Second page.html"
+						><span>Road Map</span></a
+					>
+					<a class="navbar-item" href="Registration Form.html"
+						><span>Registeration Form</span></a
+					>
+					<a class="navbar-item" href="https://www.iti.gov.eg/iti/home"
+						><span>Contact</span></a
+					>
+				</div>
+				<img src="img/ITI_logo.png" width="200px" />
+			</nav>
+		</header>
+
 		<h1 style="color: red; text-align: center">Technical Road-Map Syllabus</h1>
-		<h2>CMS Track Categories:</h2>
+		<p>
+			Product oriented approach that gives you the skills to build a
+			<span class="roadmap-textUnderline">Web Site for Buisness Company</span>
+		</p>
+		<h2 style="color: red">CMS Track Categories:</h2>
 		<ol>
 			<li>Web Fundamentals</li>
 			<li>Database</li>
@@ -28,35 +42,50 @@
 			<li>Content Management Systems</li>
 			<li>Employability Skills</li>
 		</ol>
-		<h2>Web Fundamentals</h2>
-		<ul>
-			<li>HTML/CSS</li>
-			<li>Java Script</li>
-		</ul>
-		<h2>Database</h2>
-		<ul>
-			<li>MySQL Database</li>
-		</ul>
-		<h2>Administration</h2>
-		<ul>
-			<li>Introduction to Apache Web Server</li>
-		</ul>
-		<h2>Software Development using PHP</h2>
-		<ul>
-			<li>PHP Programming Language</li>
-		</ul>
-		<h2>Content Management Systems</h2>
-		<ul>
-			<li>Wordpress</li>
-			<li>Joomla</li>
-		</ul>
-		<h2>Employablitiy Skills</h2>
-		<ul>
-			<li>Effective Communication Skills</li>
-			<li>Effective Presentation Skills</li>
-			<li>Interviewing Skills</li>
-			<li>Freelancing Skills</li>
-		</ul>
+		<div class="roadmap-container">
+			<div class="roadmap-item">
+				<h2>Web Fundamentals</h2>
+				<ul>
+					<li>HTML/CSS</li>
+					<li>Java Script</li>
+				</ul>
+			</div>
+			<div class="roadmap-item">
+				<h2>Database</h2>
+				<ul>
+					<li>MySQL Database</li>
+				</ul>
+			</div>
+			<div class="roadmap-item">
+				<h2>Administration</h2>
+				<ul>
+					<li>Introduction to Apache Web Server</li>
+				</ul>
+			</div>
+			<div class="roadmap-item">
+				<h2>Software Development using PHP</h2>
+				<ul>
+					<li>PHP Programming Language</li>
+				</ul>
+			</div>
+			<div class="roadmap-item">
+				<h2>Content Management Systems</h2>
+				<ul>
+					<li>Wordpress</li>
+					<li>Joomla</li>
+				</ul>
+			</div>
+			<div class="roadmap-item">
+				<h2>Employablitiy Skills</h2>
+				<ul>
+					<li>Effective Communication Skills</li>
+					<li>Effective Presentation Skills</li>
+					<li>Interviewing Skills</li>
+					<li>Freelancing Skills</li>
+				</ul>
+			</div>
+		</div>
+
 		<p>
 			For More details visit out
 			<a target="_blank" href="https://www.iti.gov.eg/iti/home">ITI</a> web site
@@ -64,9 +93,11 @@
 		<p style="text-align: center">
 			<a href="#top">Top</a>
 		</p>
-		<hr />
-		<p style="text-align: center">
-			Copyright 2021 by Noha Salah &#174;. All Rights reserved
-		</p>
+		<footer>
+			<hr />
+			<p class="footer-container">
+				Copyright 2021 by Noha Salah &#174;. All Rights reserved
+			</p>
+		</footer>
 	</body>
 </html>

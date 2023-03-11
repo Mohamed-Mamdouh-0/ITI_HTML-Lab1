@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="myStyles.css" />
+		<!-- <script src='main.js'></script> -->
+	</head>
+	<body class="container">
+		<header>
+			<nav class="navbar">
+				<div class="navbar-items">
+					<a class="navbar-item" href="index.html"><span>Home</span></a>
+					<a class="navbar-item" href="Second page.html"
+						><span>Road Map</span></a
+					>
+					<a class="navbar-item" href="Registration Form.html"
+						><span>Registeration Form</span></a
+					>
+					<a class="navbar-item" href="https://www.iti.gov.eg/iti/home"
+						><span>Contact</span></a
+					>
+				</div>
+				<img src="img/ITI_logo.png" width="200px" />
+			</nav>
+		</header>
+		<main class="Form-Container">
+			<form>
+				<table class="form-table">
+					<tr>
+						<td colspan="2">
+							<h2 class="table-headerText">Register - Create Account</h2>
+						</td>
+					</tr>
+					<tr style="padding-bottom: 20px">
+						<td colspan="2" style="padding-block: 10px">
+							<div class="table-subheader">
+								Field marked with <span class="required-mark">*</span> are
+								compulsory fields
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="row-header">
+							<span class="required-mark">*</span> Your Name
+						</td>
+						<td><input name="name" type="text" required /></td>
+					</tr>
+					<tr>
+						<td class="row-header">
+							<span class="required-mark">*</span> Email ID
+						</td>
+						<td><input type="email" required /></td>
+					</tr>
+					<tr>
+						<td class="row-header">Your Phone</td>
+						<td class="phone-data">
+							<div>
+								<p style="font-size: 12px">Country Code</p>
+								<input
+									style="max-width: 100px"
+									type="text"
+									name="countryCode" />
+								-
+							</div>
+
+							<div>
+								<p style="font-size: 12px">City Code</p>
+								<input style="max-width: 100px" type="text" name="cityCode" /> -
+							</div>
+							<div>
+								<p style="font-size: 12px">Phone Number</p>
+								<input style="flex: grow 1" type="text" name="phoneNumber" />
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="row-header">Mobile Phone</td>
+						<td><input type="text" name="MobilePhone" /></td>
+					</tr>
+					<tr>
+						<td class="row-header">
+							<span class="required-mark">*</span> Your Postal Address
+						</td>
+						<td><textarea name="postal-Address" required></textarea></td>
+					</tr>
+					<tr>
+						<td class="row-header">
+							<span class="required-mark">*</span> Country
+						</td>
+						<td>
+							<select name="country" required>
+								<option value="Egypt" disabled selected>
+									----------Select One ----------
+								</option>
+								<option value="Egypt">Egypt</option>
+								<option value="United Kingdom">United Kingdom</option>
+								<option value="Germany">Germany</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="row-header">
+							<span class="required-mark">*</span> Password
+						</td>
+						<td><input type="password" required name="password" /></td>
+					</tr>
+					<tr>
+						<td class="row-header">
+							<span class="required-mark">*</span> Re - Enter Password
+						</td>
+						<td><input type="password" required name="password" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="checkbox" required name="termsOfUse" /> I accept the
+							<a href="">Terms of Use</a>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<button style="margin-right: 10px" type="submit">Continue</button
+							><button type="reset">Reset</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</main>
+		<footer>
+			<hr />
+			<p class="footer-container">
+				Copyright 2021 by Noha Salah &#174;. All Rights reserved
+			</p>
+		</footer>
+	</body>
+</html>
